@@ -1,8 +1,34 @@
-# React + Vite
+# PenXp - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend repository for **PenXp**. It is built using **React.js**, **Tailwind CSS**, and **Axios** for handling HTTP requests. The frontend interacts with the backend for user authentication, and to display data to users.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Features](#features)
+- [Folder Structure](#folder-structure)
+- [Running Tests](#running-tests)
+- [Environment Variables](#environment-variables)
+- [License](#license)
+
+---
+
+## Technologies Used
+
+- **React.js** - JavaScript library for building user interfaces
+- **Tailwind CSS** - Utility-first CSS framework for styling
+- **Axios** - Promise-based HTTP client for making requests to the backend
+- **React Router** - For routing and navigation within the app
+- **JWT** - For handling authentication tokens
+
+---
+
+## Setup Instructions
+
+To get the frontend up and running locally, follow these steps:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/theutpal01/PenXP_Frontend.git
